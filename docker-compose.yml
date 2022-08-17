@@ -1,0 +1,23 @@
+services:
+  nginx:
+    build: .
+    container_name: nginx
+    restart: "always"
+    privileged: true
+    links:
+      - "go-api:api"
+      - "frontend:frontend"
+    ports:
+      - 80:80
+  go-api:
+    build: ./backend
+    restart: "always"
+    container_name: api
+    ports: 
+      - 3000:3000
+  frontend:
+    build: ./frontend
+    restart: "always"
+    container_name: frontend
+    ports:
+      - 3001:3000

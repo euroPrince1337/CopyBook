@@ -1,0 +1,7 @@
+frontend/node_modules
+go.sum
+social-network
+users.db 
+fiber
+frontend/.next/
+/out/
