@@ -15,6 +15,8 @@ Fully coded in golang utilizing the following technologies:
 ## frontend
 Typescript + nextjs + tailwindcss
 
+## devops
+Fully dockerized and ready for deployment on any environment
 
 ## TODO
 - better db management
