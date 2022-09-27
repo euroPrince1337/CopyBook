@@ -13,7 +13,8 @@ Fully coded in golang utilizing the following technologies:
 - https://gorm.io/
 
 ## frontend
-Typescript + 
+Typescript + nextjs + tailwindcss
+
 
 ## TODO
 - better db management
